@@ -137,6 +137,7 @@ nav .profile-link a {
 }
 .blogs-posts-container {
     padding: 0 50ox 40px;
+    text-align: center;
 }
 .blogs-posts-container h3 {
     border-bottom: 1px solid rgb(180, 217, 250);
@@ -159,6 +160,7 @@ nav .profile-link a {
     padding-left: 10px;
     max-width: 30%;
     margin-bottom: 50px;
+    text-align: left;
 }
 .blogs-posts-container .blogs-post-container p {
     margin-bottom: 35px;
