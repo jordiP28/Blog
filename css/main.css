@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
 body {
+    font-family: "Quicksand", sans-serif;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -80,9 +82,25 @@ nav .profile-link a {
     margin-top: 80px;
 }
 .home-main-text {
+    font-family: "Quicksand", sans-serif;
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     letter-spacing: 10px;
-    color: black;
+    color: #004aad;
     text-align: center;
+}
+.home-main-button {
+    width: 120px;
+    height: 50px;
+    background-color:#004aad;
+    display: grid;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    
+}
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
 }
