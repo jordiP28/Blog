@@ -1,93 +1,331 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/font/flaticon.css">
-    <link rel="stylesheet" href="css/media-queries.css">
-</head>
-<body class="home-body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Principal</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/font/flaticon.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+  </head>
+  <body class="home-body">
     <header>
-        <section class="header-icons-container">
-            <div class="icons">
-                <a href="/"><span class="flaticon-001-facebook"></span></a>
-                <a href="/"><span class="flaticon-002-twitter"></span></a>
-                <a href="/"><span class="flaticon-011-instagram"></span></a>
-                <a href="/"><span class="flaticon-010-linkedin"></span></a>
-                <a href="/"><span class="flaticon-008-youtube"></span></a>
-            </div>
+      <section class="header-icons-container">
+        <div class="icons">
+          <a href="/"><span class="flaticon-001-facebook"></span></a>
+          <a href="/"><span class="flaticon-002-twitter"></span></a>
+          <a href="/"><span class="flaticon-011-instagram"></span></a>
+          <a href="/"><span class="flaticon-010-linkedin"></span></a>
+          <a href="/"><span class="flaticon-008-youtube"></span></a>
+        </div>
+      </section>
+      <nav>
+        <section class="nav-logo-container">
+          <a href="/">
+            <img src="assets/img/Logo.png" alt="Logo de mi blog" />
+          </a>
         </section>
-        <nav>
-            <section class="nav-logo-container">
-                <a href="/"> <img src="assets/img/Logo.png" alt="Logo de mi blog"> </a>
-            </section>
-            <section class="profile-link">
-                <a href="/perfil.html">Sobre mí</a>
-            </section>
-        </nav>
+        <section class="profile-link">
+          <a href="/perfil.html">Sobre mí</a>
+        </section>
+      </nav>
     </header>
     <main class="blogs-main">
-        <section class="blogs-news-container">
-            <div class="grid- container blogs-main-new">
-                <h3>Noticias</h3>
-                <div class="blogs-news-img-container">
-                    <img src="assets/img/post.jpg" alt="">
-                </div>
-                <div class="blogs-news-info-container">
-                    <h2>Título del Blogpost</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aliquam repudiandae tenetur, error architecto atque iusto blanditiis incidunt. Nisi, voluptatum! Consequatur hic vel voluptate, nihil id dolore expedita! Labore, consectetur?
-                    </p>
-                    <a href="blog.html" class="blogs-button"> Saber más!</a>
-                </div>
+      <section class="blogs-news-container">
+        <div class="grid- container blogs-main-new">
+          <h3>Flash de historia</h3>
+          <div class="blogs-news-img-container">
+            <img src="assets/img/Ada Lovelace.png" alt="Ada Lovelace" />
+            <h4>Ada Lovelace Fuente: National Geographic</h4>
+          </div>
+          <div class="blogs-news-info-container">
+            <h2>Breve Historia de la Programación</h2>
+            <p>
+              <br />
+              <br />
+              <br />
+              🕰️ 1. Primeros pasos – Antes del siglo XX Ada Lovelace (1815-1852)
+              es considerada la primera programadora de la historia. Escribió el
+              primer algoritmo para la máquina analítica de Charles Babbage,
+              aunque esta máquina nunca se llegó a construir. En el siglo XIX
+              también se usaron tarjetas perforadas en telares automáticos (como
+              el telar de Jacquard), un precursor de la lógica de programación.
+              <br />
+              <br />
+
+              💡 2. Programación temprana – Años 40 y 50 Durante la Segunda
+              Guerra Mundial, Alan Turing desarrolló conceptos clave para la
+              computación y la inteligencia artificial. En 1945 aparece la
+              ENIAC, una de las primeras computadoras electrónicas. Se
+              programaba con interruptores, cables y paneles. En 1957 se crea
+              FORTRAN, uno de los primeros lenguajes de programación de alto
+              nivel, utilizado para cálculos científicos.
+              <br />
+              <br />
+              🔤 3. Lenguajes estructurados – Años 60 y 70 Aparecen lenguajes
+              más avanzados como: COBOL (1959): orientado a negocios. C (1972):
+              muy influyente; todavía se usa hoy en día. Se desarrolla la
+              programación estructurada, promoviendo el uso de estructuras
+              lógicas como bucles y condicionales.
+              <br />
+              <br />
+              🧠 4. Paradigmas y objetos – Años 80 y 90 Nace la programación
+              orientada a objetos, con lenguajes como C++, Java y Python. Se
+              expande el uso de la programación en la vida diaria, con la
+              llegada de las computadoras personales.
+              <br />
+              <br />
+              🌐 5. Programación moderna – 2000s hasta hoy Se populariza la
+              programación web con HTML, CSS, JavaScript, PHP, etc. Aparecen
+              frameworks y herramientas como React, Node.js, Django. Hoy en día
+              la programación está en todas partes: apps, videojuegos,
+              inteligencia artificial, robótica, sitios web, y mucho más.
+            </p>
+            <!-- <a href="blog.html" class="blogs-button"> Saber más!</a> -->
+          </div>
+        </div>
+      </section>
+      <section class="blogs-posts-container">
+        <div class="grid-container">
+          <h2>Algunos lenguajes de programación</h2>
+          <!-- bloque de Python -->
+          <article class="post-container">
+            <img src="assets/svg/python-5.svg" alt="logo Python" />
+            <p><strong>Python</strong></p>
+            <p>
+              <strong>Ideal para:</strong>Principiantes, ciencia de datos,
+              inteligencia artificial, automatización. <br />
+              <strong>Ventajas:</strong>Sintaxis simple, gran comunidad, muchas
+              librerías.
+              <strong>
+                <br />
+                Dato curioso:</strong
+              >Es uno de los lenguajes más enseñados en universidades.
+            </p>
+            <a
+              href="https://www.python.org/doc/"
+              target="_blank"
+              class="blogs-button"
+            >
+              Saber más!</a
+            >
+          </article>
+          <!-- JavaScript -->
+
+          <article class="post-container">
+            <img src="assets/svg/javascript.svg" alt="logo javascript" />
+            <p><strong>JavaScript</strong></p>
+            <p>
+              <strong>Ideal para:</strong>Desarrollo web (frontend y backend).
+              <br />
+              <strong>Ventajas:</strong>Corre en todos los navegadores,
+              interactivo, permite crear sitios dinámicos.
+              <strong>
+                <br />
+                Dato curioso:</strong
+              >EJunto con HTML y CSS, es esencial para cualquier desarrollador
+              web.
+            </p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              class="blogs-button"
+            >
+              Saber más!</a
+            >
+          </article>
+
+          <!-- Java -->
+
+          <article class="post-container">
+            <img src="assets/svg/java-4.svg" alt="" />
+            <p><strong>Java</strong></p>
+            <p>
+              <strong>Ideal para:</strong>Aplicaciones móviles (especialmente
+              Android), sistemas empresariales. <br />
+              <strong>Ventajas:</strong>Código portable, seguro, orientado a
+              objetos.
+              <strong>
+                <br />
+                Dato curioso:</strong
+              >Muchas apps bancarias están hechas en Java.
+            </p>
+            <a
+              href="https://docs.oracle.com/en/java/"
+              target="_blank"
+              class="blogs-button"
+            >
+              Saber más!</a
+            >
+          </article>
+
+          <!-- C y C++ -->
+
+          <article class="post-container">
+            <img src="assets/svg/c.svg" alt="" />
+            <p><strong>C y C++</strong></p>
+            <p>
+              <strong>Ideal para:</strong>Sistemas operativos, videojuegos,
+              programación de bajo nivel.<br />
+              <strong>Ventajas:</strong>Muy rápidos, control total del hardware.
+              <strong>
+                <br />
+                Dato curioso:</strong
+              >Muchos motores de videojuegos como Unreal Engine usan C++.
+            </p>
+            <a
+              href="https://en.cppreference.com/"
+              target="_blank"
+              class="blogs-button"
+            >
+              Saber más!</a
+            >
+          </article>
+
+          <!-- PHP -->
+
+          <article class="post-container">
+            <img src="assets/svg/php-6.svg" alt="" />
+            <p><strong>PHP</strong></p>
+            <p>
+              <strong>Ideal para:</strong>Desarrollo web del lado del
+              servidor.<br />
+              <strong>Ventajas:</strong>Fácil de usar, muy usado en sitios como
+              WordPress.
+              <strong>
+                <br />
+                Dato curioso:</strong
+              >Facebook fue creado inicialmente en PHP.
+            </p>
+            <a
+              href="https://www.php.net/docs.php"
+              target="_blank"
+              class="blogs-button"
+            >
+              Saber más!</a
+            >
+          </article>
+
+          <!-- Ruby -->
+
+          <article class="post-container">
+            <img src="assets/svg/ruby.svg" alt="" />
+            <p><strong>Ruby</strong></p>
+            <p>
+              <strong>Ideal para:</strong>Desarrollo web rápido (con Ruby on
+              Rails).<br />
+              <strong>Ventajas:</strong>Sintaxis elegante, muy legible.
+              <strong>
+                <br />
+                Dato curioso:</strong
+              >
+              Famoso por permitir crear aplicaciones web en poco tiempo.
+            </p>
+            <a
+              href=" https://www.ruby-lang.org/en/documentation/"
+              target="_blank"
+              class="blogs-button"
+            >
+              Saber más!</a
+            >
+          </article>
+        </div>
+      </section>
+      <!-- HTML Y CSS  -->
+      <section class="blogs-posts-container-1">
+        <div class="grid-container">
+          <h2>¿HTML y CSS son lenguajes de programación?</h2>
+
+          <article class="post-container">
+            <div style="display: flex; gap: 10px; align-items: center">
+              <img
+                src="assets/svg/html-1.svg"
+                alt="logo HTML"
+                style="width: 200px"
+              />
+              <img
+                src="assets/svg/css-3.svg"
+                alt="logo CSS"
+                style="width: 200px"
+              />
             </div>
-        </section>
-        <section class="blogs-posts-container">
-            <div class="grid-container">
-                <h3></h3>
-                <article class="post-container">
-                    <img src="assets/img/poost.jpg" alt="">
-                    <p>Título del Blogpost</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptatum doloribus magni illo odit </p>
-                    <a href="blog.html" class="blogs-button"> Saber más!</a>
-                </article>
-                <article class="post-container">
-                    <img src="assets/img/poost.jpg" alt="">
-                    <p>Título del Blogpost</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptatum doloribus magni illo odit </p>
-                    <a href="blog.html" class="blogs-button"> Saber más!</a>
-                </article>
-                <article class="post-container">
-                    <img src="assets/img/poost.jpg" alt="">
-                    <p>Título del Blogpost</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptatum doloribus magni illo odit </p>
-                    <a href="blog.html" class="blogs-button"> Saber más!</a>
-                </article>
-                <article class="post-container">
-                    <img src="assets/img/poost.jpg" alt="">
-                    <p>Título del Blogpost</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptatum doloribus magni illo odit </p>
-                    <a href="blog.html" class="blogs-button"> Saber más!</a>
-                </article>
-                <article class="post-container">
-                    <img src="assets/img/poost.jpg" alt="">
-                    <p>Título del Blogpost</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptatum doloribus magni illo odit </p>
-                    <a href="blog.html" class="blogs-button"> Saber más!</a>
-                </article>
-                <article class="post-container">
-                    <img src="assets/img/poost.jpg" alt="">
-                    <p>Título del Blogpost</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptatum doloribus magni illo odit </p>
-                    <a href="blog.html" class="blogs-button"> Saber más!</a>
-                </article>   
-            </div>
-        </section>
+            <p>
+              Muchas personas que comienzan en el mundo web se preguntan si HTML
+              y CSS son lenguajes de programación. La respuesta es:<strong>
+                no lo son</strong
+              >, pero son igual de importantes.
+            </p>
+            <p>
+              <strong>¿Por qué no lo son?</strong> <br />
+              <br />HTML es un lenguaje de marcado. Se usa para estructurar
+              contenido en una página (como títulos, párrafos, listas,
+              formularios…), pero no permite escribir lógica como condiciones o
+              ciclos. CSS es un lenguaje de estilos. Se encarga de darle diseño
+              visual a ese contenido (colores, tamaños, márgenes…), pero tampoco
+              permite lógica o procesamiento.
+            </p>
+
+            <p>
+                <strong>¿Entonces qué sí es un lenguaje de programación? </strong>
+               <br>
+               <br>Un lenguaje de
+              programación como JavaScript, Python o Java permite escribir
+              instrucciones lógicas, como:
+               <ul> <li>Condicionales (if, else) </li></ul> 
+               <ul> <li>Bucles (for,while) </li></ul>
+               <ul> <li>Funciones y operaciones Estos lenguajes sí controlan el
+              comportamiento dinámico de una aplicación. </li></ul>
+
+              Estos lenguajes sí controlan <strong>el comportamiento dinámico </strong>de una aplicación.  
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                      <th>Lenguaje</th>
+                      <th>Tipo</th>
+                      <th>¿Es de programación?</th>
+                      <th>¿Para qué sirve?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Marcado</td>
+                        <td>❌ No</td>
+                        <td>Estructurar el contenido web</td>
+
+                        <tr>
+                        <td>CSS</td>
+                        <td>Estilos</td>
+                        <td>❌ No</td>
+                        <td>Diseñar y decorar la interfaz</td>
+
+                        <tr>
+                        <td>JavaScript</td>
+                        <td>Programación</td>
+                        <td>✅ Sí</td>
+                        <td>Añadir lógica e interactividad
+                        </td>
+                    </tr>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Conclusión:</h3>
+            <p>
+            Aunque HTML y CSS no son lenguajes de programación como tal, son esenciales para cualquier sitio web.
+            Son la base del desarrollo web y el punto de partida para quienes desean convertirse en desarrolladores.
+            <br>
+            <br>
+            <br>
+            <br>
+            </p>
+          </article>
+        </div>
+      </section>
     </main>
     <footer>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </footer>
-</body>
+  </body>
 </html>

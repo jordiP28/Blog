@@ -57,7 +57,7 @@ nav .nav-logo-container {
     background-color: transparent;
 }
 nav .nav-logo-container img {
-    width: 80px;
+    width: 132px;
     margin-top: 10px;
     background-color: transparent;
 }
@@ -166,7 +166,10 @@ nav .profile-link a {
     margin-bottom: 35px;
 }
 .blogs-posts-container .post-container img {
-    width: 100%;
+    width: 75%;
+}
+.post-container-web img  {
+     width: 75%;
 }
 footer {
     width: 100%;
@@ -246,3 +249,19 @@ footer p {
 proyect-container {
     padding: 0 5px;
 }
+
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  th, td {
+    border: 1px solid #97d3eb;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #59c0fc;
+  }
+
